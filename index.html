@@ -34,11 +34,12 @@
             </div>
         </div>
         <div class="right-side">
-            <ul class="information">
-                <li><i class="fa fa-location-arrow"></i> 2 rue des archives, Brest 29200</li>
-                <li><i class="fa fa-female"></i> 24 ans , 17/07/1997</li>
-                <li><i class="fa fa-envelope"></i><a href="mailto: hmadouchsouhir7@gmail.com"> hmadouchsouhir7@gmail.com</a></li>
-                <li><i class="fa fa-phone"></i> +33 7 53 59 72 66</li>
+            <ul class="information" itemcope itemtype="https://schema.org/Person">
+                <li itemprop="adresse"><i class="fa fa-location-arrow"></i> 2 rue des archives, Brest 29200</li>
+                <li itemprop="birthDate"><i class="fa fa-female"></i> 24 ans , 17/07/1997</li>
+                <li itemprop="email"><i class="fa fa-envelope"></i><a href="mailto: hmadouchsouhir7@gmail.com">
+                        hmadouchsouhir7@gmail.com</a></li>
+                <li itemprop="telephone"><i class="fa fa-phone"></i> +33 7 53 59 72 66</li>
             </ul>
         </div>
         <div id="info-header">
@@ -115,9 +116,9 @@
                 <div class="exp1">
                     <p>
                         <strong>11/2020 - 03/2021
-                        AD-Smile | Al Hoceima </strong><br>
+                            AD-Smile | Al Hoceima </strong><br>
                         Réalisation d'un site WordPress de localisation de voiture.<br>
-                    
+
                         - Développement de l'application <br>
                         - Création de l'algorithme de réservation<br>
                     </p>
@@ -126,7 +127,7 @@
                 <div class="exp2">
                     <p>
                         <strong>02/2020 - 07/2020
-                        Groupe Senef | Paris </strong><br>
+                            Groupe Senef | Paris </strong><br>
                         Conception et développement d'une plateforme de gestion des ressources humaines <br>
                         - Développement des APIs Rest <br>
                         - Création des composants Web. <br>
@@ -136,7 +137,7 @@
                 <div class="exp3">
                     <p>
                         <strong>07/2018 - 09/2018
-                        Groupe Senef | Paris </strong><br>
+                            Groupe Senef | Paris </strong><br>
                         Développement d'une plateforme de gestion des affaires pour les entreprises de
                         nettoyage et de gestion des installations.<br>
                         - Maintenance de l'existant projet <br>
@@ -152,12 +153,13 @@
 
 </body>
 <footer>
-    <a href="https://www.facebook.com/profile.php?id=100009939010589" target="_blank"><i class="fa fa-facebook"></i>
-        Facebook</a>
-    <a href="https://www.linkedin.com/in/souhir-hmadouch-509421161/" target="_blank"><i class="fa fa-linkedin"></i>
-        LinkedIn</a>
-    <a href="https://github.com/HmSouhir" target="_blank"><i class="fa fa-github"></i> Github</a>
-
+    <div itemtype="https://schema.org/Person">
+        <a href="https://www.facebook.com/profile.php?id=100009939010589" target="_blank" itemprop="url"><i class="fa fa-facebook"></i>
+            Facebook</a>
+        <a href="https://www.linkedin.com/in/souhir-hmadouch-509421161/" target="_blank" itemprop="url"><i class="fa fa-linkedin"></i>
+            LinkedIn</a>
+        <a href="https://github.com/HmSouhir" target="_blank" itemprop="url"><i class="fa fa-github"></i> Github</a>
+    </div>
 </footer>
 
 </html>
