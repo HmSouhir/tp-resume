@@ -1,24 +1,24 @@
 @media only screen and (max-width: 740px) {
-    #wrapper { grid-template-columns: 1fr ;
+   #wrapper { grid-template-columns: 1fr ;
+   }
+   h3 {
+      text-align: center;
+
+   }}
+   }
+   @media only screen and (max-width: 570px) {
+   #wrapper {   grid-template-columns: 1fr ;
     }
     h3 {
        text-align: center;
 
-    } }
     }
-    @media only screen and (max-width: 570px) {
-    #wrapper {   grid-template-columns: 1fr ;
-     }
-     h3 {
-        text-align: center;
+   }
+   @media only screen and (max-width: 480px) {
+   #wrapper {     grid-template-columns: 1fr ;
+   }
+   h3 {
+       text-align: center;
 
-     }
     }
-    @media only screen and (max-width: 480px) {
-    #wrapper {     grid-template-columns: 1fr ;
-    }
-    h3 {
-        text-align: center;
-
-     }
-    }
+   }
